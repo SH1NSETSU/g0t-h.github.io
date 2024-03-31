@@ -1,0 +1,88 @@
+body {
+    background-image: url("images/comet2.jpg");
+    background-position: left top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #202020;    
+    color: #ADADAD;
+    font-family: "Lucida Console", Monaco,monospace;
+    padding: 10%;
+
+}
+
+.normal {
+    color: #ADADAD;
+}
+
+.spoiler {
+    background-color: #000000;
+    color: #000000;
+}
+
+.spoiler:hover {
+    color: #ADADAD;
+}
+
+.box {
+    background-color: #202020;
+    color: #ADADAD;
+    border: 4px #ADADAD solid;
+    padding: 30px;
+}
+
+.indent {
+    text-indent: 5%;
+}
+
+h4 {
+    text-indent: -2%;
+}
+
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+a:hover {
+    color: #5C5C5C;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bloglink {
+    display: inline;
+}
+
+.rice-image {
+    max-height: 80%;
+    max-width: 80%;
+    border: 20px #202020 solid;
+}
+
+.album-cover {
+    max-height: 30%;
+    max-width: 30%;
+    border: 3px #5C5C5C solid;
+}
+
+.blog-image {
+    max-height: 50%;
+    max-width: 50%;
+    border: 3px #5C5C5C solid;
+}
+
+.quote {
+    text: italic;
+}
+
+.side-thought {
+    text: bold;
+}
+
+.blogpost {
+    padding: 10%;
+    line-height: 24px;
+}
